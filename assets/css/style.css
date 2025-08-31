@@ -1,0 +1,19 @@
+:root{
+  --brand: #6366f1;
+  --brand-2: #22c55e;
+}
+html, body { 
+  scroll-behavior: smooth; 
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.hero-overlay{
+  position:absolute; inset:0;
+  display:flex; align-items:center; justify-content:center;
+  background: linear-gradient(180deg, rgba(2,6,23,0.4), rgba(2,6,23,0.65));
+  padding: 2rem;
+}
+.card img { object-fit: cover; }
+.card:hover { transform: scale(1.05); transition: all 0.3s ease-in-out; }
+footer .btn { border-radius: 999px; }
+.navbar .nav-link.active { color: var(--brand-2) !important; }
